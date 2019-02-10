@@ -1,0 +1,147 @@
+body{
+	margin:0;
+	padding:0;
+
+}
+section{
+	background:url(car.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height:100%;
+	overflow-y: hidden;
+}
+section header{
+	color:#F8F8FF;
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	padding-top:30px;
+	
+}
+section header span{
+	font-family: 'Roboto', sans-serif;
+}
+section header .logo{
+	float: left;
+	padding-left: 30px;
+
+}
+section header .fa{
+	color:#B0C4DE;
+}
+section header .logo span{
+	font-size: 26px;
+	color:#f8f8ff;
+	font-weight: 700;
+}
+section header .btn{
+	float: right;
+	padding:.5em 1em;
+	padding-right:4em;
+	background:#F8F8FF;
+	color:#696969;
+	border-radius: 0;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	color:#F8F8FF !important;
+	margin-top:15vh;
+}
+.container .list ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+.container .head-text h1{
+	font-size: 4em ;
+	margin-bottom: 1.3rem;
+	font-family: 'Muli', sans-serif;
+
+
+}
+.container .equip{
+	margin-top:30px;
+	margin-left:15px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.container .equip .fa{
+	margin-left:10px;
+}
+.container .list ul li{
+	color: #F8F8FF;
+	font-family: 'Roboto', sans-serif;
+}
+.container .list2 ul li{
+	color: #D3D3D3;
+}
+.container .buy{
+
+	padding:.5em 1em;
+	font-family: 'Roboto', sans-serif;
+	background:#F8F8FF;
+	color:#696969;
+	border-radius: 0;
+	font-size: 25px;
+	font-weight: 800;
+	margin-top:180px;
+	display: inline-block;
+}
+.container .color span{
+	display: inline-block;
+	width:30px;
+	height:30px;
+	background:#fff;
+	border-radius: 50%;
+	margin-left:15px;
+
+}
+.container .color{
+	text-align: center;
+	margin-top:10px;
+}
+.container .color span:nth-child(1){
+	background:#F8F8FF;
+	box-shadow: 0 0 3px 2px #f8f8ff;
+	position: relative;
+
+
+}
+.container .color span:nth-child(1):before{
+	position: absolute;
+	width:100%;
+	height: 1px;
+	background: #f8f8ff;
+	top:-5px;
+	content: "";
+	left:0;
+	box-shadow: 0 0 2px 1px #fff;
+}
+.container .color span:nth-child(2){
+	background:#DC143C;
+	box-shadow: 0 0 3px 2px #dc143c;
+}
+.container .color span:nth-child(3){
+	background:#1E90FF;
+	box-shadow: 0 0 3px 2px #1E90FF;
+}
+.container .slide{
+	display: inline-block;
+	text-align: right;
+}
+/*.container .slide span{
+	font-size: 30px;
+}*/
+.container .color .slide {
+	font-size: 40px;
+}
+.container .color .slide {
+	font-size: 20px;
+
+}
+.container .color .slide .fas{
+	padding-left: 20px;
+}
